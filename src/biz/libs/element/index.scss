@@ -1,0 +1,158 @@
+/************** element-ui 样式重置 *******************/
+.el-menu{
+    background: #131038;
+    .el-submenu:last-of-type {
+        padding-bottom: 30px;
+    }
+    .el-submenu__title:hover, .el-menu-item:hover{
+        background: #131038;
+        span{
+            color:#fff;
+        }
+    }
+    .el-menu-item:focus{
+        background: #24205C;
+    }
+    .el-menu-item.is-active {
+        background-color: #414A66;
+        &::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 9px;
+            background: #3998FC;
+            content: ' ';
+            z-index: 20;
+        }
+    }
+    .el-menu--inline {
+        background: #131038;
+    }
+}
+
+.el-table__empty-block {
+    height: 200px;
+    background: url('./imgs/empty-bg.svg') no-repeat center center;
+    background-size: auto 70%;
+}
+
+.el-table {
+    font-size: 12px;
+    th, td {
+        padding: 8px 0;
+    }
+    th.is-hidden {
+        visibility: hidden;
+    }
+    th.gutter {
+        display: table-cell !important;
+    }
+    th > .cell {
+        font-weight: bold;
+    }
+    .el-table__empty-text {
+        display: none;
+    }
+
+    [class*=el-table__row--level] .el-table__expand-icon {
+        display: inline-block;
+        width: 14px;
+        vertical-align: middle;
+        margin-right: 5px;
+
+        > .el-icon {
+            margin-top: -7px;
+        }
+    }
+
+}
+
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+    box-shadow: none;
+}
+
+.el-dialog {
+    border-radius: 5px;
+}
+.el-dialog__title {
+    color: #4186f6;
+}
+.el-dialog__headerbtn {
+    top: 15px;
+}
+
+.el-form-item__label {
+    padding-right: 15px;
+    color: #333;
+}
+.el-form-item--small {
+    &.el-form-item {
+        margin-bottom: 18px;
+    }
+}
+
+.el-cascader,
+.el-select,
+.el-autocomplete,
+.el-input-number,
+.el-date-editor.el-input,
+.el-date-editor--date.el-input,
+.el-date-editor--datetime.el-input,
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--datetimerange.el-input__inner {
+    width: 100%;
+}
+
+.el-form-item {
+    &.is-success {
+        .el-input__inner,
+        .el-input__inner:focus,
+        .el-textarea__inner,
+        .el-textarea__inner:focus {
+            border-color: #dcdfe6;
+        }
+    }
+    .el-form-item__label,
+    .el-form-item__content {
+        font-size: 12px;
+    }
+}
+
+/** by liyankai */
+/* 添加表格居中展示文字 */
+.el-table.text-center th,
+.el-table.text-center td {
+    text-align: center;
+}
+
+//edit by wanghongluan 系统参数radio样式
+.system-params{
+    .el-radio__input.is-checked .el-radio__inner{
+        border-color: #979797;
+        background: #fff;
+    }
+    .el-radio__input.is-checked .el-radio__inner::after{
+        background-color: #333333;
+    }
+    .el-radio__input.is-checked + .el-radio__label{
+        color: #333333;
+    }
+}
+
+//menu修改背景颜色为图片
+.el-menu{
+    .el-submenu__title:hover, .el-menu-item:hover{
+        background: #2d70ec;
+        span{
+            color:#fff;
+        }
+    }
+    // .el-menu-item:focus{
+    //     background: #202743;
+    // }
+    // .el-menu-item .is-active {
+    //     color: #409EFF;
+    // }
+}
+

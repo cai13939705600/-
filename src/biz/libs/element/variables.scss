@@ -1,0 +1,25 @@
+$--color-primary: #3998fc;
+
+$--font-size-base: 12px !default;
+
+$--border-color-base: #d8d8d8 !default;
+
+$--checkbox-font-size: 12px !default;
+
+$--pagination-font-size: 12px !default;
+
+$--dialog-title-font-size: 16px !default;
+
+$--border-radius-base: 0px !default;
+
+$--table-border-color: #dbdbdb !default;
+
+$--table-header-font-color: #666 !default;
+
+$--table-header-background-color: #f8f8f8 !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+

@@ -1,0 +1,146 @@
+input:-webkit-autofill
+{
+    -webkit-box-shadow: 0 0 0 1000px white inset;  //清除谷歌默认蓝色
+    outline: none
+}
+.p-login {
+    width: 100%;
+    height: 100%;
+    min-height: 720px;
+    font-size: 14px;
+    background: url('../../../imgs/loginBg.jpg') no-repeat center center;
+    background-size: cover;
+    .top-block,
+    .bot-block {
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        width: 100%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .top-block {
+        top: 0;
+        height: 50px;
+        line-height: 50px;
+        //background: linear-gradient(208deg,rgba(9, 7, 36, 1) 0%,rgba(9, 7, 36, 1) 100%);
+        background: #131038;
+        .col-l {
+            padding-left: 20px;
+            .logo {
+                width: 108px;
+                height: 100%;
+                background: url('../../../imgs/logo.svg') no-repeat center center;
+                background-size: auto 30px;
+            }
+        }
+        .col-r {
+            width: 40%;
+            padding-right: 30px;
+            text-align: right;
+            color: #FEFFFF;
+        }
+    }
+    .bot-block {
+        bottom: 0;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+       // background: linear-gradient(208deg,rgba(19, 14, 65, 1) 0%,rgba(11, 23, 67, 1) 100%);
+        background: #131038;
+        opacity: 0.9;
+    }
+    .main-block {
+        width: 100%;
+        height: 100%;
+        .col-l {
+            position: relative;
+            width: 54%;
+            height: 100%;
+            .slogan {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -140%);
+            }
+        }
+        .col-r {
+            position: relative;
+            width: 46%;
+            height: 100%;
+            .form-wrap {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 0 0 5px 5px;
+            }
+            .el-form {
+                width: 450px;
+                padding: 48px 64px 28px 66px;
+                box-sizing: border-box;
+                background-color: rgba(255, 255, 255, 0.96);
+            }
+            .el-form-item__content {
+                line-height: 48px;
+            }
+            .top-line {
+                height: 9px;
+                border-radius: 5px 5px 0 0;
+                background: #3368F4;
+            }
+            .el-button {
+                padding: 0;
+                height: 48px;
+                line-height: 48px;
+                font-size: 20px;
+            }
+            .el-input__inner {
+                height: 48px;
+                line-height: 48px;
+                font-size: 16px;
+                border-color: transparent;
+            }
+            .el-input__suffix {
+                right: 10px;
+            }
+            .el-input-group__prepend {
+                padding: 0;
+                background-color: #fff;
+                border-color: transparent;
+
+                i {
+                    display: block;
+                    width: 66px;
+                    height: 46px;
+                    background: no-repeat center center;
+                    background-size: auto 24px;
+                }
+                .icon-ecode {
+                    background-image: url('../../../imgs/icon-ecode.svg');
+                }
+                .icon-user {
+                    background-image: url('../../../imgs/icon-user.svg');
+                }
+                .icon-lock {
+                    background-image: url('../../../imgs/icon-lock.svg');
+                }
+            }
+            .form-hd {
+                font-size: 30px;
+                color: #3998FC;
+            }
+            .form-bd {
+                .el-form-item {
+                    margin-bottom: 20px;
+                    &:nth-child(2){
+                        margin-bottom: 32px;
+                    }
+                }
+                .el-form-item__error {
+                    left: 66px;
+                }
+            }
+        }
+    }
+}

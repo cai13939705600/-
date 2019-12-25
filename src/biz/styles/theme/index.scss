@@ -1,0 +1,31 @@
+// 顶栏
+$--tb-bg: #304156;
+$--tb-height: 50px;
+$--tb-menu-bg: $--tb-bg;
+$--tb-menu-color: #bfcbd9;
+$--tb-menu-active-color: #409eff;
+
+// 主栏
+$--mn-bg: #e8f0fa;
+
+$--mnc-bg: #fff;
+
+
+:export {
+    tbMenuBg: $--tb-menu-bg;
+    tbMenuColor: $--tb-menu-color;
+    tbMenuActiveColor: $--tb-menu-active-color;
+}
+
+// 侧栏
+$--sd-bg: #131038;
+
+$--sd-bg-active: #2d70ec;
+
+$--sd-color: #fff;
+
+$--sd-color-active: transparent;
+
+$--sd-width: 192px;
+
+$--sd-width-fold: 100px;

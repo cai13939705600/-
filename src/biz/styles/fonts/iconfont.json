@@ -1,0 +1,177 @@
+{
+  "id": "1324609",
+  "name": "11",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10472811",
+      "name": "仓库管理",
+      "font_class": "cangkuguanli",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "10472812",
+      "name": "出库",
+      "font_class": "chuku",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "10472813",
+      "name": "仓库管理选中",
+      "font_class": "cangkuguanlixuanzhong",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10472814",
+      "name": "出库选中",
+      "font_class": "chukuxuanzhong",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10472815",
+      "name": "规则管理",
+      "font_class": "guizeguanli",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10472816",
+      "name": "单据类型",
+      "font_class": "danjuleixing",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "10472817",
+      "name": "首页选中",
+      "font_class": "shouyexuanzhong",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "10472818",
+      "name": "入库选中",
+      "font_class": "rukuxuanzhong",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10472819",
+      "name": "规则管理选中",
+      "font_class": "guizeguanlixuanzhong",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10472820",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "10472821",
+      "name": "入库",
+      "font_class": "ruku",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "10472822",
+      "name": "单据类型选中",
+      "font_class": "danjuleixingxuanzhong",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10472823",
+      "name": "物料中心",
+      "font_class": "wuliaozhongxin",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "10472824",
+      "name": "物料中心选中",
+      "font_class": "wuliaozhongxinxuanzhong",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "10472825",
+      "name": "在库",
+      "font_class": "zaiku",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "10472826",
+      "name": "在库选中",
+      "font_class": "zaikuxuanzhong",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "10472827",
+      "name": "组织管理选中",
+      "font_class": "zuzhiguanlixuanzhong",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "10472828",
+      "name": "组织管理",
+      "font_class": "zuzhiguanli",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "10702009",
+      "name": "系统未选中",
+      "font_class": "xitongweixuanzhong",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "10702010",
+      "name": "ID",
+      "font_class": "ID",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "10702011",
+      "name": "ID未选中",
+      "font_class": "IDweixuanzhong",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "10702012",
+      "name": "系统参数",
+      "font_class": "xitongcanshu",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "11008727",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "11008729",
+      "name": "权限选中",
+      "font_class": "quanxianxuanzhong",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}
