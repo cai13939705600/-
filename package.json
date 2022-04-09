@@ -20,7 +20,7 @@
         "element-ui": "2.11.0",
         "js-cookie": "^2.2.0",
         "lodash": "^4.17.11",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "qs": "^6.6.0",
         "shortid": "^2.2.14",
         "sortablejs": "^1.10.0-rc3",
